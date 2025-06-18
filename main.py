@@ -28,7 +28,7 @@ async def main():
     print("[DEBUG] Entered main async function.")
     async with agent.run_mcp_servers():
         print("[DEBUG] MCP servers running.")
-        result = await agent.run("extract the content and summarize it :https://en.wikipedia.org/wiki/Artificial_intelligence ")
+        result = await agent.run("extract the content and summarize it :https://en.wikipedia.org/wiki/Artificial_intelligence ")  ## insert the website link you waant to summarize
         print("[DEBUG] Agent run completed.")
         output = result.output
         return output
