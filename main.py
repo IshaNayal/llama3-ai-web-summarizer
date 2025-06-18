@@ -13,7 +13,7 @@ mcp_fetch_server = MCPServerStdio(
 print("[DEBUG] MCP server created.")
 
 # configure groq api key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "   " ## insert your API key of your desired LLM..Here i am using GROQ
 print("[DEBUG] GROQ_API_KEY set.")
 
 # create the AI agent 
